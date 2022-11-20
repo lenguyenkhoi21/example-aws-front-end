@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import appInfo from './app-info.json'
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React.
         </a>
+          <p>Version {appInfo.version}</p>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
